@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script>
+var num;
+var ran=Math.floor(Math.random()*10+1);
+var numint;
+var j=0;
+
+while(j==0){
+	num=window.prompt("guess a number from 1 to 10!");
+	numint= parseInt(num);
+	if(ran==numint){
+			j=1;
+		alert("y'all right!");
+	}else{
+		alert("wrong!");
+
+	}
+}
+document.write("press F5 to play again");
+</script>
+</body>
+</html>
